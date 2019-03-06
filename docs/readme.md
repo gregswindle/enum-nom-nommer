@@ -7,5 +7,5 @@ begin.
 
 ## 2. [Maintainer Guide](maintainer-guide/README.md)
 
-How to maintain **enum-factory** product development and delivery with voluntary
-contributions.
+How to maintain **enum-nom-nommer** product development and delivery with
+voluntary contributions.

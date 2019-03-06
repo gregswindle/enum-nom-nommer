@@ -1,5 +1,5 @@
 {
-  "name": "enum-factory",
+  "name": "enum-nom-nommer",
   "description": "Create a numeric or mixed enumeration (enum) from a plain-old JavaScript object.",
   "version": "0.0.0",
   "author": {
@@ -7,7 +7,7 @@
     "url": "https://github.com/gregswindle"
   },
   "bugs": {
-    "url": "https://github.com/gregswindle/enum-factory/issues"
+    "url": "https://github.com/gregswindle/enum-nom-nommer/issues"
   },
   "commitplease": {
     "style": "angular",
@@ -33,7 +33,7 @@
     }
   ],
   "dependencies": {
-    "enum-factory": "^1.0.0",
+    "enum-nom-nommer": "^1.0.0",
     "lodash.get": "4.4.2",
     "lodash.set": "4.3.2",
     "parse-numeric": "1.0.0"
@@ -99,7 +99,7 @@
       "groupPR": "ci(dependency-mgmt): update ${dependency} in group ${group} to latest"
     }
   },
-  "homepage": "https://github.com/gregswindle/enum-factory#readme",
+  "homepage": "https://github.com/gregswindle/enum-nom-nommer#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -144,7 +144,7 @@
   },
   "keywords": [
     "convert",
-    "enum-factory",
+    "enum-nom-nommer",
     "number",
     "parse",
     "parse-number",
@@ -264,7 +264,7 @@
     "success": false,
     "fail": false
   },
-  "repository": "gregswindle/enum-factory",
+  "repository": "gregswindle/enum-nom-nommer",
   "scripts": {
     "ci:coverage": "npm run ci:coverage:codacy && npm run ci:coverage:coveralls",
     "ci:coverage:codacy": "cat ./coverage/lcov.info | codacy-coverage",

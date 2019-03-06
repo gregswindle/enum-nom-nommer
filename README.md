@@ -1,4 +1,4 @@
-# enum-factory
+# enum-nom-nommer
 
 [![The MIT License][license-image]][license-url]
 [![NPM version][npm-image]][npm-url] [![FOSSA Status][fossa-image]][fossa-url]
@@ -24,23 +24,23 @@
 ## 1. Install
 
 ```sh
-npm i enum-factory
+npm i enum-nom-nommer
 ```
 
 <small>[![Back to Table of contents][octicon-triangle-up] [toc]](#table-of-contents)</small>
 
 ## 2. Usage
 
-<a href="https://runkit.com/gregswindle/enum-factory"><img alt="Test it out on RunKit.com" height="30" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.3.0/svg/beaker.svg" valign="bottom" width="30">
-Test <strong>enum-factory</strong> in your Web browser on RunKit
-<img alt="Try enum-factory on RunKit" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.3.0/svg/link-external.svg"></a>.
+<a href="https://runkit.com/gregswindle/enum-nom-nommer"><img alt="Test it out on RunKit.com" height="30" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.3.0/svg/beaker.svg" valign="bottom" width="30">
+Test <strong>enum-nom-nommer</strong> in your Web browser on RunKit
+<img alt="Try enum-nom-nommer on RunKit" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.3.0/svg/link-external.svg"></a>.
 
 ---
 
 Create a numeric (indexed) enumeration:
 
 ```js
-const enumFactory = require('enum-factory')
+const { enumFactory } = require('enum-nom-nommer')
 
 const levels = {debug: 5, error: 0, http&#x3A; 3, info: 2, silly: 6, verbose: 4, warn: 1}
 const logLevelsEnum = enumFactory.create(levels)
@@ -98,10 +98,10 @@ const validTypesEnum = enumFactory.create(validSignatureTypes);
 
 ## 4. Contributing
 
-[![GitHub Contributors](https://img.shields.io/github/contributors/gregswindle/enum-factory.svg?style=social)]()
-[![GitHub](https://img.shields.io/github/stars/gregswindle/enum-factory.svg?style=social)](https://github.com/gregswindle/enum-factory)
-[![GitHub](https://img.shields.io/github/forks/gregswindle/enum-factory.svg?style=social)](https://github.com/gregswindle/enum-factory/network)
-[![Greenkeeper badge](https://badges.greenkeeper.io/gregswindle/enum-factory.svg?style=flat-square)](https://greenkeeper.io/)
+[![GitHub Contributors](https://img.shields.io/github/contributors/gregswindle/enum-nom-nommer.svg?style=social)]()
+[![GitHub](https://img.shields.io/github/stars/gregswindle/enum-nom-nommer.svg?style=social)](https://github.com/gregswindle/enum-nom-nommer)
+[![GitHub](https://img.shields.io/github/forks/gregswindle/enum-nom-nommer.svg?style=social)](https://github.com/gregswindle/enum-nom-nommer/network)
+[![Greenkeeper badge](https://badges.greenkeeper.io/gregswindle/enum-nom-nommer.svg?style=flat-square)](https://greenkeeper.io/)
 
 > ![Gratitude][octicon-heart] We gratefully accept Pull Requests.
 
@@ -115,7 +115,7 @@ Please review [the CONTRIBUTING guidelines](CONTRIBUTING.md) and join in.
 
 > [![Law][octicon-law] View current and **detailed legal NOTICE** report](https://app.fossa.io/attribution/933e5a8d-8842-42f1-8f35-ede2de2bfe69).
 
-[![FOSSA Status](https://app.fossa.io/api/projects/custom%2B804%2Fgithub.com%2Fgregswindle%2Fenum-factory.svg?type=large)](https://app.fossa.io/projects/custom%2B804%2Fgithub.com%2Fgregswindle%2Fenum-factory?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgregswindle%2Fenum-nom-nommer.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgregswindle%2Fenum-nom-nommer?ref=badge_large)
 
 <small>[![Back to Table of contents][octicon-triangle-up] [toc]](#table-of-contents)</small>
 
@@ -139,54 +139,57 @@ Please review [the CONTRIBUTING guidelines](CONTRIBUTING.md) and join in.
 <!-- prettier ignore -->
 
 [appveyor-image]:
-  https://img.shields.io/appveyor/ci/gregswindle/enum-factory.svg?style=flat-square&logo=appveyor&label=windows%20build
-[appveyor-url]: https://ci.appveyor.com/project/gregswindle/enum-factory
+  https://img.shields.io/appveyor/ci/gregswindle/enum-nom-nommer.svg?style=flat-square&logo=appveyor&label=windows%20build
+[appveyor-url]: https://ci.appveyor.com/project/gregswindle/enum-nom-nommer
 [codacy-coverage-image]:
   https://img.shields.io/codacy/coverage/76d67d5c0a5c4d21b25f611a896e33cb.svg?style=flat-square
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c6edb2d74fca44279c24b1c4a35b8ad9)](https://www.codacy.com/app/greg_7/enum-nom-nommer?utm_source=github.com&utm_medium=referral&utm_content=gregswindle/enum-nom-nommer&utm_campaign=Badge_Grade)
+
 [codacy-image]:
-  https://api.codacy.com/project/badge/Grade/76d67d5c0a5c4d21b25f611a896e33cb?style=flat-square
+  https://api.codacy.com/project/badge/Grade/c6edb2d74fca44279c24b1c4a35b8ad9?style=flat-square
 [codacy-url]:
-  https://www.codacy.com/app/greg_7/enum-factory?utm_source=github.com&utm_medium=referral&utm_content=gregswindle/enum-factory&utm_campaign=Badge_Grade
+  https://www.codacy.com/app/greg_7/enum-nom-nommer?utm_source=github.com&utm_medium=referral&utm_content=gregswindle/enum-nom-nommer&utm_campaign=Badge_Grade
 [coveralls-image]:
-  https://img.shields.io/coveralls/github/gregswindle/enum-factory/master.svg
-[coveralls-url]: https://coveralls.io/r/gregswindle/enum-factory
+  https://img.shields.io/coveralls/github/gregswindle/enum-nom-nommer/master.svg
+[coveralls-url]: https://coveralls.io/r/gregswindle/enum-nom-nommer
 [daviddm-dev-image]:
-  https://david-dm.org/gregswindle/enum-factory/dev-status.svg?theme=shields.io&style=flat-square
-[daviddm-dev-url]: https://david-dm.org/gregswindle/enum-factory?type=dev
+  https://david-dm.org/gregswindle/enum-nom-nommer/dev-status.svg?theme=shields.io&style=flat-square
+[daviddm-dev-url]: https://david-dm.org/gregswindle/enum-nom-nommer?type=dev
 [daviddm-image]:
-  https://david-dm.org/gregswindle/enum-factory.svg?theme=shields.io&style=flat-square
-[daviddm-url]: https://david-dm.org/gregswindle/enum-factory
+  https://david-dm.org/gregswindle/enum-nom-nommer.svg?theme=shields.io&style=flat-square
+[daviddm-url]: https://david-dm.org/gregswindle/enum-nom-nommer
 [fossa-image]:
-  https://app.fossa.io/api/projects/custom%2B804%2Fgithub.com%2Fgregswindle%2Fenum-factory.svg?type=shield
+  https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgregswindle%2Fenum-nom-nommer.svg?type=shield
 [fossa-url]:
-  https://app.fossa.io/projects/git%2Bgithub.com%2Fgregswindle%2Fenum-factory?ref=badge_shield
+  https://app.fossa.io/projects/git%2Bgithub.com%2Fgregswindle%2Fenum-nom-nommer?ref=badge_shield
 [github-release-image]:
-  https://img.shields.io/github/release/gregswindle/enum-factory.svg?style=flat-square
+  https://img.shields.io/github/release/gregswindle/enum-nom-nommer.svg?style=flat-square
 [github-release-url]:
-  https://github.com/gregswindle/enum-factory/releases/latest
+  https://github.com/gregswindle/enum-nom-nommer/releases/latest
 [license-image]:
   https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [license-url]: http://opensource.org/licenses/MIT
 [maintenance-image]:
-  https://img.shields.io/maintenance/enum-factory/2019.svg?style=flat-square
+  https://img.shields.io/maintenance/enum-nom-nommer/2019.svg?style=flat-square
 [notice-url]: https://app.fossa.io/reports/07123904-7d26-40a6-b6af-c74e82a53789
 [npm-downloads-month]:
-  https://img.shields.io/npm/dm/enum-factory.svg?style=social
-[npm-image]: https://img.shields.io/npm/v/enum-factory.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/enum-factory
-[npms-image]: https://badges.npms.io/enum-factory.svg?style=flat-square
-[npms-url]: https://npms.io/search?q=enum-factory
+  https://img.shields.io/npm/dm/enum-nom-nommer.svg?style=social
+[npm-image]: https://img.shields.io/npm/v/enum-nom-nommer.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/enum-nom-nommer
+[npms-image]: https://badges.npms.io/enum-nom-nommer.svg?style=flat-square
+[npms-url]: https://npms.io/search?q=enum-nom-nommer
 [nsp-image]:
   https://nodesecurity.io/orgs/gregswindle/projects/a2aa0184-ae94-4307-8b87-f0e12324368a/badge
 [nsp-url]:
   https://nodesecurity.io/orgs/gregswindle/projects/a2aa0184-ae94-4307-8b87-f0e12324368a
 [travis-image]:
-  https://img.shields.io/travis/com/gregswindle/enum-factory.svg?branch=master&style=flat-square&label=macOS%20%7C%20ubuntu%20builds&logo=travis
-[travis-url]: https://travis-ci.com/gregswindle/enum-factory
+  https://img.shields.io/travis/com/gregswindle/enum-nom-nommer.svg?branch=master&style=flat-square&label=macOS%20%7C%20ubuntu%20builds&logo=travis
+[travis-url]: https://travis-ci.com/gregswindle/enum-nom-nommer
 [vulnerabilities-image]:
-  https://snyk.io/test/github/gregswindle/enum-factory/badge.svg?style=flat-square&targetFile=package.json
+  https://snyk.io/test/github/gregswindle/enum-nom-nommer/badge.svg?style=flat-square&targetFile=package.json
 [vulnerabilities-url]:
-  https://snyk.io/test/github/gregswindle/enum-factory?targetFile=package.json
+  https://snyk.io/test/github/gregswindle/enum-nom-nommer?targetFile=package.json
 
 <!-- Octicons -->
 

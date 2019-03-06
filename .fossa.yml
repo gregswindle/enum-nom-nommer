@@ -5,10 +5,10 @@ version: 1
 cli:
   server: https://app.fossa.io
   fetcher: custom
-  project: https://github.com/gregswindle/enum-factory.git
+  project: https://github.com/gregswindle/enum-nom-nommer.git
 analyze:
   modules:
-  - name: .
+  - name: enum-nom-nommer
     type: npm
     target: .
     path: .

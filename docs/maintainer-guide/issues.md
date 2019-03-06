@@ -314,7 +314,7 @@ member is permitted to work on them.
 
 New rules and rule changes require a champion. As champion, it's your job to:
 
-1.  Gain [consensus](#consensus) from the **enum-factory** team on inclusion
+1.  Gain [consensus](#consensus) from the **enum-nom-nommer** team on inclusion
 
 2.  Guide the rule creation process until it's complete (so only champion a rule
     that you have time to implement or help another contributor implement)

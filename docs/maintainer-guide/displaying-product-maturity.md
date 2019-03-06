@@ -248,10 +248,10 @@ before you rely.
 [standardjs-logo]: https://cdn.rawgit.com/feross/standard/master/badge.svg
 [standardjs-url]: https://github.com/feross/standard
 [eslint-logo]:
-  https://github.com/gregswindle/enum-factory/raw/master/docs/img/logos/logo-eslint.png
+  https://github.com/gregswindle/enum-nom-nommer/raw/master/docs/img/logos/logo-eslint.png
 [eslint-url]: https://eslint.org/docs/user-guide/getting-started
 [jest-logo]:
-  https://github.com/gregswindle/enum-factory/raw/master/docs/img/logos/logo-jest.png
+  https://github.com/gregswindle/enum-nom-nommer/raw/master/docs/img/logos/logo-jest.png
 [jest-url]: https://facebook.github.io/jest/docs/en/getting-started.html
 
 <!-- 🔗 project statistics 🔗 -->

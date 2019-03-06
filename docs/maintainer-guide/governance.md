@@ -2,11 +2,11 @@
 
 # Governance
 
-**enum-factory** is an open source project that depends on contributions from
+**enum-nom-nommer** is an open source project that depends on contributions from
 the community. Anyone may contribute to the project at any time by submitting
 code, participating in discussions, making suggestions, or any other
 contribution they see fit. This document describes how various types of
-contributors work within the **enum-factory** project.
+contributors work within the **enum-nom-nommer** project.
 
 ## Roles and Responsibilities
 
@@ -159,25 +159,25 @@ be nominated to become a PMC member, described below.
 
 #### Process for Adding Committers
 
-1.  Add the GitHub user to the "**enum-factory** Team" team
+1.  Add the GitHub user to the "**enum-nom-nommer** Team" team
 
 2.  Send welcome email with link to the Maintainer guide
 
-3.  Add the Maintainer's email to the **enum-factory** team mailing list
+3.  Add the Maintainer's email to the **enum-nom-nommer** team mailing list
 
 4.  Add the Maintainer to the README
 
 5.  Invite to team chatroom
 
 6.  Publisize congratulatory messages to the new committer on internal
-    **enum-factory** media, e.g., CrowdAround and Stack Overflow
+    **enum-nom-nommer** media, e.g., CrowdAround and Stack Overflow
 
 7.  Notify Human Resources/Performance Management about the community's
     promotion
 
 ### Product Management Committe (PMC)
 
-The **enum-factory** project is jointly governed by a Product Management
+The **enum-nom-nommer** project is jointly governed by a Product Management
 Committe (PMC) which is responsible for high-level guidance of the project.
 
 The PMC has final authority over this project including:
@@ -240,25 +240,25 @@ nomination will result in discussion and then a decision by the PMC.
 
 #### Process for Adding PMC Members
 
-1.  Add the Maintainer to the "**enum-factory** PMC" team
+1.  Add the Maintainer to the "**enum-nom-nommer** PMC" team
 
-2.  Set the GitHub user to be have the "Owner" role for the enum-factory
+2.  Set the GitHub user to be have the "Owner" role for the enum-nom-nommer
     organization
 
 3.  Send welcome email with link to Maintainer guide
 
 4.  Add the PMC member to the README
 
-5.  Invite to the **enum-factory** PMC chatroom
+5.  Invite to the **enum-nom-nommer** PMC chatroom
 
-6.  Make the PMC member an admin on the **enum-factory** team mailing list
+6.  Make the PMC member an admin on the **enum-nom-nommer** team mailing list
 
 7.  Add the PMC member to the recurring PMC meeting event on Google Calendar
 
-8.  Add the PMC member as an admin to **enum-factory** media channels
+8.  Add the PMC member as an admin to **enum-nom-nommer** media channels
 
-9.  Publish congratulatory remarks to the new PMC member on enum-factory media
-    channels
+9.  Publish congratulatory remarks to the new PMC member on enum-nom-nommer
+    media channels
 
 #### PMC Meetings
 

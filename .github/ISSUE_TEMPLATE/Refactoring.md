@@ -41,39 +41,43 @@
 <!-- SonarCloud badge refs -->
 
 [sonar-alert-status-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=enum-factory-gitlab&metric=alert_status&template=FLAT
-[sonar-alert-status-url]: https://sonarcloud.io/dashboard?id=enum-factory-gitlab
+  https://sonarcloud.io/api/project_badges/measure?project=enum-nom-nommer-gitlab&metric=alert_status&template=FLAT
+[sonar-alert-status-url]:
+  https://sonarcloud.io/dashboard?id=enum-nom-nommer-gitlab
 [sonar-bugs-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=enum-factory-gitlab&metric=bugs&template=FLAT
-[sonar-bugs-url]: https://sonarcloud.io/dashboard?id=enum-factory-gitlab
+  https://sonarcloud.io/api/project_badges/measure?project=enum-nom-nommer-gitlab&metric=bugs&template=FLAT
+[sonar-bugs-url]: https://sonarcloud.io/dashboard?id=enum-nom-nommer-gitlab
 [sonar-code-smells-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=enum-factory-gitlab&metric=code_smells&template=FLAT
-[sonar-code-smells-url]: https://sonarcloud.io/dashboard?id=enum-factory-gitlab
+  https://sonarcloud.io/api/project_badges/measure?project=enum-nom-nommer-gitlab&metric=code_smells&template=FLAT
+[sonar-code-smells-url]:
+  https://sonarcloud.io/dashboard?id=enum-nom-nommer-gitlab
 [sonar-coverage-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=enum-factory-gitlab&metric=coverage&template=FLAT
-[sonar-coverage-url]: https://sonarcloud.io/dashboard?id=enum-factory-gitlab
+  https://sonarcloud.io/api/project_badges/measure?project=enum-nom-nommer-gitlab&metric=coverage&template=FLAT
+[sonar-coverage-url]: https://sonarcloud.io/dashboard?id=enum-nom-nommer-gitlab
 [sonar-duplicated-lines-density-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=enum-factory-gitlab&metric=duplicated_lines_density&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=enum-nom-nommer-gitlab&metric=duplicated_lines_density&template=FLAT
 [sonar-duplicated-lines-density-url]:
-  https://sonarcloud.io/dashboard?id=enum-factory-gitlab
+  https://sonarcloud.io/dashboard?id=enum-nom-nommer-gitlab
 [sonar-ncloc-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=enum-factory-gitlab&metric=ncloc&template=FLAT
-[sonar-ncloc-url]: https://sonarcloud.io/dashboard?id=enum-factory-gitlab
+  https://sonarcloud.io/api/project_badges/measure?project=enum-nom-nommer-gitlab&metric=ncloc&template=FLAT
+[sonar-ncloc-url]: https://sonarcloud.io/dashboard?id=enum-nom-nommer-gitlab
 [sonar-reliability-rating-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=enum-factory-gitlab&metric=reliability_rating&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=enum-nom-nommer-gitlab&metric=reliability_rating&template=FLAT
 [sonar-reliability-rating-url]:
-  https://sonarcloud.io/dashboard?id=enum-factory-gitlab
+  https://sonarcloud.io/dashboard?id=enum-nom-nommer-gitlab
 [sonar-security-rating-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=enum-factory-gitlab&metric=security_rating&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=enum-nom-nommer-gitlab&metric=security_rating&template=FLAT
 [sonar-security-rating-url]:
-  https://sonarcloud.io/dashboard?id=enum-factory-gitlab
+  https://sonarcloud.io/dashboard?id=enum-nom-nommer-gitlab
 [sonar-sqale-index-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=enum-factory-gitlab&metric=sqale_index&template=FLAT
-[sonar-sqale-index-url]: https://sonarcloud.io/dashboard?id=enum-factory-gitlab
+  https://sonarcloud.io/api/project_badges/measure?project=enum-nom-nommer-gitlab&metric=sqale_index&template=FLAT
+[sonar-sqale-index-url]:
+  https://sonarcloud.io/dashboard?id=enum-nom-nommer-gitlab
 [sonar-sqale-rating-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=enum-factory-gitlab&metric=sqale_rating&template=FLAT
-[sonar-sqale-rating-url]: https://sonarcloud.io/dashboard?id=enum-factory-gitlab
+  https://sonarcloud.io/api/project_badges/measure?project=enum-nom-nommer-gitlab&metric=sqale_rating&template=FLAT
+[sonar-sqale-rating-url]:
+  https://sonarcloud.io/dashboard?id=enum-nom-nommer-gitlab
 [sonar-vulnerabilities-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=enum-factory-gitlab&metric=vulnerabilities&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=enum-nom-nommer-gitlab&metric=vulnerabilities&template=FLAT
 [sonar-vulnerabilities-url]:
-  https://sonarcloud.io/dashboard?id=enum-factory-gitlab
+  https://sonarcloud.io/dashboard?id=enum-nom-nommer-gitlab

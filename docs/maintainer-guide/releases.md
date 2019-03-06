@@ -5,13 +5,13 @@
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (TOC:excludeText=Table of contents) -->
 
 - [1. Overview](#1-overview)
-  - [1.1. The enum-factory Node.js module](#11-the-enum-factory-nodejs-module)
+  - [1.1. The enum-nom-nommer Node.js module](#11-the-enum-nom-nommer-nodejs-module)
   - [1.2. Releases and the npm public registry](#12-releases-and-the-npm-public-registry)
   - [1.3. Dependency managers install releases](#13-dependency-managers-install-releases)
   - [1.5. Pre-releases and regular releases](#15-pre-releases-and-regular-releases)
 - [1. Continuous deployment with `semantic-release`](#1-continuous-deployment-with-semantic-release)
 - [2. Publishing to npm](#2-publishing-to-npm)
-- [3. Installing enum-factory](#3-installing-enum-factory)
+- [3. Installing enum-nom-nommer](#3-installing-enum-nom-nommer)
 - [4. Release team](#4-release-team)
 - [5. Release communication](#5-release-communication)
   - [5.1. Release issues](#51-release-issues)
@@ -25,9 +25,9 @@
 
 ## 1. Overview
 
-### 1.1. The **enum-factory** Node.js module
+### 1.1. The **enum-nom-nommer** Node.js module
 
-**enum-factory** is a Node.js [module
+**enum-nom-nommer** is a Node.js [module
 ![offsite web page][octicon-link-external]][npmjs-about-modules-doc] that
 encapsulates read-only API access to data-leakage detection definitions. We call
 the data structure that represents a data-leakage detection defintion a
@@ -37,7 +37,7 @@ the data structure that represents a data-leakage detection defintion a
 ### 1.2. Releases and the npm public registry
 
 We use a product manifest file called `package.json` to describe and publish
-**enum-factory** revisions as [packages
+**enum-nom-nommer** revisions as [packages
 ![offsite web page][octicon-link-external]][npmjs-about-packages-doc] on the
 [public npm registry
 ![offsite web page][octicon-link-external]][npmjs-public-registry-doc], which is
@@ -78,18 +78,18 @@ has no public API, it's not a release candidate!
 
 ## 1. Continuous deployment with `semantic-release`
 
-**enum-factory** uses [`semantic-release`][semantic-release-readme]. Whenever
+**enum-nom-nommer** uses [`semantic-release`][semantic-release-readme]. Whenever
 source code is merged into `master` (after passing all unit tests with code
 coverage thresholds satisfied), we automatically:
 
-1.  **Bump the semantic version** of **enum-factory** (based on conventional
+1.  **Bump the semantic version** of **enum-nom-nommer** (based on conventional
     commits).
 
 2.  **Update the CHANGELOG.md** file.
 
 3.  **Generate release notes**.
 
-4.  **Publish** the **enum-factory** to the public npm registry.
+4.  **Publish** the **enum-nom-nommer** to the public npm registry.
 
 ## 2. Publishing to npm
 
@@ -106,7 +106,7 @@ npm run semantic-release
 
 <summary><img src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.1.3/svg/beaker.svg" height="30" width="30" alt="semantic-release dry-runs" valign="middle" hspace="8"> Test semantic-release without really publishing</summary>
 
-Open a Terminal and change into your **enum-factory** directory.
+Open a Terminal and change into your **enum-nom-nommer** directory.
 
 Then run:
 
@@ -118,7 +118,7 @@ The `--dry-run` option executes semantic-release without actually publishing
 anything. You should see output similar to this:
 
 ```shell
-> enum-factory@0.0.0 semantic-release /Users/username/Projects/github/gregswindle/enum-factory
+> enum-nom-nommer@0.0.0 semantic-release /Users/username/Projects/github/gregswindle/enum-nom-nommer
 > semantic-release "--dry-run"
 
 [8:00:23 PM] [semantic-release] › ℹ  Running semantic-release version 15.13.3
@@ -136,10 +136,10 @@ anything. You should see output similar to this:
 
 ---
 
-## 3. Installing enum-factory
+## 3. Installing enum-nom-nommer
 
 ```shell
-npm install **enum-factory** --global
+npm install **enum-nom-nommer** --global
 ```
 
 ## 4. Release team
@@ -239,8 +239,8 @@ unplanned and isn't the regularly scheduled release or the anticipated patch
 release). Even if there is a regression, it's best to wait the weekend to see if
 any other problems arise so a patch release can fix as many issues as possible.
 
-The only real exception is if **enum-factory** is completely unusable by most of
-the current users. For instance, we once pushed a release that errored for
+The only real exception is if **enum-nom-nommer** is completely unusable by most
+of the current users. For instance, we once pushed a release that errored for
 everyone because it was missing some core files. In that case, an emergency
 release is appropriate.
 

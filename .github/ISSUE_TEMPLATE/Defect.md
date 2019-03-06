@@ -46,7 +46,7 @@ _When working properly, I expect that:_
 > ⌦ Include as many relevant details about the environment in which the defect
 > occured.
 
-- <samp>enum-factory</samp> version:
+- <samp>enum-nom-nommer</samp> version:
 - `JavaScript` version (`node --version`):
 - `npm` version (`npm --version`):
 - Operating System and version (desktop or mobile):
