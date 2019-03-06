@@ -139,8 +139,8 @@ Please review [the CONTRIBUTING guidelines](CONTRIBUTING.md) and join in.
 <!-- prettier ignore -->
 
 [appveyor-image]:
-  https://img.shields.io/appveyor/ci/gregswindle/enum-nom-nommer.svg?style=flat-square&logo=appveyor&label=windows%20build
-[appveyor-url]: https://ci.appveyor.com/project/gregswindle/enum-nom-nommer
+  https://img.shields.io/appveyor/ci/gregswindle/enum-factory.svg?style=flat-square&logo=appveyor&label=windows%20build
+[appveyor-url]: https://ci.appveyor.com/project/gregswindle/enum-factory
 [codacy-coverage-image]:
   https://img.shields.io/codacy/coverage/c6edb2d74fca44279c24b1c4a35b8ad9
 
