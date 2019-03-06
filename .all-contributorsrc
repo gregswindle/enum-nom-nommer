@@ -1,0 +1,54 @@
+{
+  "projectName": "data-loss-signatures",
+  "projectOwner": "gregswindle",
+  "repoType": "gitlab",
+  "repoHost": "https://gitlab.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "semantic-release-bot",
+      "name": "Semantic Release Bot",
+      "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/3205456/avatar.png",
+      "profile": "https://gitlab.com/semantic-release-bot",
+      "contributions": [
+        "maintenance"
+      ]
+    },
+    {
+      "login": "gregswindle",
+      "name": "gregswindle",
+      "avatar_url": "https://secure.gravatar.com/avatar/63ce0b39d728003b304d7a5aaff754e3?s=80&d=identicon",
+      "profile": "https://gitlab.com/gregswindle",
+      "contributions": [
+        "code",
+        "test",
+        "doc",
+        "bug",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "christinavaldes",
+      "name": "Christina Valdes",
+      "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/3446647/avatar.png",
+      "profile": "https://gitlab.com/christinavaldes",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "spooraj",
+      "name": "sairam pooraj",
+      "avatar_url": "https://secure.gravatar.com/avatar/8d17097b6510950f5939baa68aa4ee96?s=80&d=identicon",
+      "profile": "https://gitlab.com/spooraj",
+      "contributions": [
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

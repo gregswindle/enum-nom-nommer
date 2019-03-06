@@ -1,0 +1,15 @@
+plugins:
+  editorconfig:
+    enabled: true
+  eslint:
+    enabled: true
+    channel: "eslint-5"
+    config:
+      config: .eslintrc.js
+  fixme:
+    enabled: true
+  # https://docs.codeclimate.com/docs/git-legal#section-enable-the-plugin
+  git-legal:
+    enabled: true
+  markdownlint:
+    enabled: false

@@ -1,0 +1,4 @@
+coverage/
+docs/
+lib/__tests__/__fixtures__/
+.remarkrc.js
