@@ -33,7 +33,6 @@
     }
   ],
   "dependencies": {
-    "enum-nom-nommer": "^1.0.0",
     "lodash.get": "4.4.2",
     "lodash.set": "4.3.2",
     "parse-numeric": "1.0.0"
@@ -46,6 +45,7 @@
     "@semantic-release/npm": "^5.1.4",
     "@semantic-release/release-notes-generator": "^7.1.4",
     "all-contributors-cli": "6.1.2",
+    "codacy-coverage": "3.4.0",
     "commitizen": "3.0.7",
     "commitplease": "^3.2.0",
     "eslint": "5.15.1",

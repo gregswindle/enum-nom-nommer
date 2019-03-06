@@ -142,7 +142,9 @@ Please review [the CONTRIBUTING guidelines](CONTRIBUTING.md) and join in.
   https://img.shields.io/appveyor/ci/gregswindle/enum-nom-nommer.svg?style=flat-square&logo=appveyor&label=windows%20build
 [appveyor-url]: https://ci.appveyor.com/project/gregswindle/enum-nom-nommer
 [codacy-coverage-image]:
-  https://img.shields.io/codacy/coverage/76d67d5c0a5c4d21b25f611a896e33cb.svg?style=flat-square
+  https://img.shields.io/codacy/coverage/c6edb2d74fca44279c24b1c4a35b8ad9
+
+.svg?style=flat-square
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c6edb2d74fca44279c24b1c4a35b8ad9)](https://www.codacy.com/app/greg_7/enum-nom-nommer?utm_source=github.com&utm_medium=referral&utm_content=gregswindle/enum-nom-nommer&utm_campaign=Badge_Grade)
 
