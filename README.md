@@ -42,7 +42,16 @@ Create a numeric (indexed) enumeration:
 ```js
 const { enumFactory } = require('enum-nom-nommer')
 
-const levels = {debug: 5, error: 0, http&#x3A; 3, info: 2, silly: 6, verbose: 4, warn: 1}
+const levels = {
+  debug: 5,
+  error: 0,
+  http: 3
+  info: 2,
+  silly: 6,
+  verbose: 4,
+  warn: 1
+}
+
 const logLevelsEnum = enumFactory.create(levels)
 /* =>
 {
@@ -115,7 +124,7 @@ Please review [the CONTRIBUTING guidelines](CONTRIBUTING.md) and join in.
 
 > [![Law][octicon-law] View current and **detailed legal NOTICE** report](https://app.fossa.io/attribution/933e5a8d-8842-42f1-8f35-ede2de2bfe69).
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgregswindle%2Fenum-nom-nommer.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgregswindle%2Fenum-nom-nommer?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgregswindle%2Fenum-nom-nommer.svg?type=large)](https://app.fossa.io/attribution/5fc28a33-4383-4257-9403-ac860a655b7f?ref=badge_large)
 
 <small>[![Back to Table of contents][octicon-triangle-up] [toc]](#table-of-contents)</small>
 
@@ -142,16 +151,11 @@ Please review [the CONTRIBUTING guidelines](CONTRIBUTING.md) and join in.
   https://img.shields.io/appveyor/ci/gregswindle/enum-factory.svg?style=flat-square&logo=appveyor&label=windows%20build
 [appveyor-url]: https://ci.appveyor.com/project/gregswindle/enum-factory
 [codacy-coverage-image]:
-  https://img.shields.io/codacy/coverage/c6edb2d74fca44279c24b1c4a35b8ad9
-
-.svg?style=flat-square
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c6edb2d74fca44279c24b1c4a35b8ad9)](https://www.codacy.com/app/greg_7/enum-nom-nommer?utm_source=github.com&utm_medium=referral&utm_content=gregswindle/enum-nom-nommer&utm_campaign=Badge_Grade)
-
+  https://img.shields.io/codacy/coverage/c6edb2d74fca44279c24b1c4a35b8ad9.svg?style=flat-square
 [codacy-image]:
   https://api.codacy.com/project/badge/Grade/c6edb2d74fca44279c24b1c4a35b8ad9?style=flat-square
 [codacy-url]:
-  https://www.codacy.com/app/greg_7/enum-nom-nommer?utm_source=github.com&utm_medium=referral&utm_content=gregswindle/enum-nom-nommer&utm_campaign=Badge_Grade
+  https://app.codacy.com/project/gregswindle/enum-nom-nommer/dashboard?utm_source=github.com&utm_medium=referral&utm_content=gregswindle/enum-nom-nommer&utm_campaign=Badge_Grade
 [coveralls-image]:
   https://img.shields.io/coveralls/github/gregswindle/enum-nom-nommer/master.svg
 [coveralls-url]: https://coveralls.io/r/gregswindle/enum-nom-nommer
