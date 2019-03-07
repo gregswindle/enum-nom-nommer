@@ -1,7 +1,7 @@
 {
   "name": "enum-nom-nommer",
   "description": "Create a numeric or mixed enumeration (enum) from a plain-old JavaScript object.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": {
     "name": "Greg Swindle",
     "url": "https://github.com/gregswindle"
